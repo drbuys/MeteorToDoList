@@ -4,11 +4,16 @@
 This project uses Meteor. You will need to [install Meteor](https://www.meteor.com/install) first.
 
 ```zsh
-$ git clone https://github.com/DeloitteDigitalUK/field-agent-demo.git
-$ cd field-agent-demo
+$ git clone https://github.com/drbuys/MeteorToDoList.git
+$ cd MeteorToDoList
+$ git checkout broken
+$ git checkout -b 'ParticipantsName'
+
 $ npm install                   # Install project dependencies
 $ npm start                     # Compile and launch
 ```
 
-## Offline Support
-This project is intended to highlight the offline capabilities of using Meteor with React. The scenario for this project is a field agent using this web app on their phone. If the field agent loses connection Meteor will allow the user to continue their work offline by utilizing a local [Mongo](https://www.mongodb.com/) instance and then syncing back with the server Mongo once a connection has been reestablished.
+## Purpose
+This project is intended to highlight the approach to problem solving of the participant. The code is broken, and the errors should give an indication as to where and how to fix the code in order to get the app running again as expected.
+
+The participant should checkout their own branch from the branch '*broken*' as specified above. The branch '*working*' has the working code in it for comparison
