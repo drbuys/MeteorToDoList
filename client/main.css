@@ -22,13 +22,16 @@ body {
   margin: 0 auto;
   min-height: 100%;
   background: white;
+  border-radius: 12px;
 }
 
 header {
   background: #d2edf4;
+  margin-top: 50px;
   background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
   padding: 20px 15px 15px 15px;
   position: relative;
+  border-radius: 12px;
 }
 
 #login-buttons {
