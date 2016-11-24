@@ -32,7 +32,7 @@ export default class Task extends Component {
       <li className={taskClassName}>
         { this.props.currentUser ? (
           <span>
-            <button className="delete">
+            <button className="delete"}>
               &times;
             </button>
 

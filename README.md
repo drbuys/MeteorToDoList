@@ -24,3 +24,4 @@ Removed id="render-target" from div in main.html
 Removed App Import from main.jsx
 Removed Equality operator from App.jsx line 47
 Removed onClick function from the delete button in Task.jsx
+Commented out the ref parameter in the input text box

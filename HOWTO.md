@@ -16,3 +16,11 @@ Also the number of uncompleted tasks is displayed at the top left.
 ## What you should look at
 
 You may need to look at the files '*App.jsx*' and '*Task.jsx*' in '*./imports/ui/*', along with any of the files in the '*./client*' folder.
+
+As a user I should be able to:
+
+view the app
+view items on the todolist
+add a task
+delete an item
+toggle show/hide completed tasks
