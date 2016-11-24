@@ -1,11 +1,15 @@
 # Meteor To-Do List
 
 ## What it should do
-A simple app to manage a 'to do' list and collaborate with others on those tasks. When a user has registered they can:
-- add tasks that will be associated with their username by typing in the input below their username and pressing enter
+A simple app to manage a 'to do' list and collaborate with others on those tasks.
+
+When a user has registered they can:
+
+- add a task that will be associated with their username
 - mark any tasks as completed
 - toggle the display to hide completed tasks
 - toggle tasks as public or private (As public they can be viewed by anyone. As private they can only be viewed by the user when they are logged in)
+- delete any task
 
 Also the number of uncompleted tasks is displayed at the top left.
 

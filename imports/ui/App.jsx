@@ -44,13 +44,14 @@ class App extends Component {
       }
       return filteredTasks.map((task) => {
         const currentUserId = this.props.currentUser && this.props.currentUser._id;
-        const showPrivateButton = task.owner === currentUserId;
+        const owner = task.owner = currentUserId;
 
         return (
           <Task
             key={task._id}
             task={task}
-            showPrivateButton={showPrivateButton}
+            owner={owner}
+            currentUser={this.props.currentUser}
           />
         );
       });
@@ -79,7 +80,7 @@ class App extends Component {
               <input
                 type="text"
                 ref="textInput"
-                placeholder="Type to add new tasks"
+                placeholder="Type to add new tasks then press ENTER"
               />
             </form> : ''
           }
